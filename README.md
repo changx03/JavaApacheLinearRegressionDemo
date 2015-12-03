@@ -1,6 +1,8 @@
 # JavaApacheLinearRegressionDemo
 2D array linear regression using OLSMultipleLinearRegression.
+
 include library: apache.commons.math3 (version 3.5)
+
 build: Netbeans 8.1
 
 The example from http://commons.apache.org/proper/commons-math/userguide/stat.html#a1.4_Simple_regression
