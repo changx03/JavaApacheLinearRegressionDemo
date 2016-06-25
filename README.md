@@ -1,11 +1,14 @@
-# JavaApacheLinearRegressionDemo
-2D array linear regression using OLSMultipleLinearRegression.
+Java linear regression tutorial program
+==========
+This is an example of how to use simple linear or polynomial regression in Java.
 
-include library: apache.commons.math3 (version 3.5)
+Requirements
+==========
+- apache.commons.math3
+- [__Download__](http://commons.apache.org/proper/commons-math/download_math.cgi) the official Apache commons math download page
+- Include lib file "commons-math3-3.6.1.jar" in the project
 
-build: Netbeans 8.1
-
-The example from http://commons.apache.org/proper/commons-math/userguide/stat.html#a1.4_Simple_regression
-contains some errors, such as use 1D array to initial a 2D array, and the test data doesn't work.
-
-This demo is used to fixed the problems above.
+Results
+==========
+The regression modal computes beta[] in such order:
+y = beta[0] + beta[1]*x(0) + beta[2]*x(1) + beta[3]*x2)

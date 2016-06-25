@@ -43,6 +43,7 @@ public class LinearRegression {
     // multiple linear regression use OLS method (Ordinary least squares regression)
     public void multiLinearRegressionDemo() {
         OLSMultipleLinearRegression regression = new OLSMultipleLinearRegression();
+        // y = b(0) + b(1)*x(0) + b(2)*x(1) + b(3)*x2)
         double[] y = new double[]{1, 7, 9, 15, 22};
         double[][] x = new double[5][];
         x[0] = new double[]{0, 0, 0};
